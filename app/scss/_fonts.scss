@@ -7,3 +7,14 @@
    font-style: normal; /*Стилизация шрифта */
    font-display: swap;  /*Метод загрузки шрифта*/
 }
+
+@font-face {
+   font-family: 'Roboto';
+   src: url('../fonts/Roboto-Bold.woff2') format('woff2'), 
+        url('../fonts/Roboto-Bold.woff') format('woff'),
+        url('../fonts/Roboto-Bold.ttf') format('truetype');
+   font-weight: 700; /*Насыщенность/начертание шрифта - "жирность"*/
+   font-style: normal; /*Стилизация шрифта */
+   font-display: swap;  /*Метод загрузки шрифта*/
+}
+
